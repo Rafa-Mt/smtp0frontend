@@ -1,0 +1,15 @@
+.responsiveContainer {
+    max-width: 100%;
+  
+    @media (min-width: em(400px)) {
+      max-width: 400px;
+    }
+  
+    @media (min-width: em(600px)) {
+      max-width: 600px;
+    }
+  }
+
+  /* * {
+    outline: 1px solid white;
+  } */
